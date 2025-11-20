@@ -1,0 +1,45 @@
+name: medigen
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0' # Make sure this matches your Flutter SDK
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # A STABLE, COMPATIBLE SET OF PACKAGES
+  firebase_core: ^2.24.2
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  google_sign_in: ^6.1.5  # <-- We are pinning to v6, before the breaking changes
+  timeago: ^3.7.1
+  google_generative_ai: ^0.4.7
+  flutter_chat_bubble: ^2.0.2
+  intl: ^0.20.2
+  image_picker: ^1.2.1
+  table_calendar: ^3.2.0
+  flutter_staggered_animations: ^1.1.1
+  flutter_tts: ^4.2.3
+  geolocator: ^14.0.2
+  mongo_dart: ^0.10.5
+  url_launcher: ^6.2.5  # <-- Add this line
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # CORRECTED ASSET PATH:
+  # This must match the file you downloaded and the code in login_screen.dart
+  assets:
+    - assets/google_logo.png

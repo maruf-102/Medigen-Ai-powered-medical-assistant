@@ -1,0 +1,42 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "medigen-210d7",
+          "appId": "1:857385163517:android:7acc71033721c676a4fc94",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "medigen-210d7",
+          "configurations": {
+            "android": "1:857385163517:android:7acc71033721c676a4fc94",
+            "ios": "1:857385163517:ios:a76ff42fcecd2346a4fc94",
+            "web": "1:857385163517:web:029de77ad1a92bdfa4fc94",
+            "windows": "1:857385163517:web:adc3412eded7d474a4fc94"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "disallowLegacyRuntimeConfig": true,
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint",
+        "npm --prefix \"$RESOURCE_DIR\" run build"
+      ]
+    }
+  ]
+}

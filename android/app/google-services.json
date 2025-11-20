@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "857385163517",
+    "project_id": "medigen-210d7",
+    "storage_bucket": "medigen-210d7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:857385163517:android:7acc71033721c676a4fc94",
+        "android_client_info": {
+          "package_name": "com.medigen"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "857385163517-52ob27rkstq1ij9t9fiaklir31uqbmar.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.medigen",
+            "certificate_hash": "d4259f747804cd0417c7988a9d9f787abff8dde5"
+          }
+        },
+        {
+          "client_id": "857385163517-5dihrq6csc9r8h27tehbnr4dsf30mn8q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnMhXrrP2SCb-9U9QUkQV9lUfWbZk3XN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "857385163517-5dihrq6csc9r8h27tehbnr4dsf30mn8q.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "857385163517-57vdpja4iqsbfhpqfgln69cjosa20pfm.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "medigen"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

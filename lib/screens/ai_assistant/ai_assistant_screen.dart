@@ -10,7 +10,7 @@ import 'package:image_picker/image_picker.dart'; // NEW
 import 'package:flutter_tts/flutter_tts.dart';   // NEW
 
 // --- !!! IMPORTANT: PASTE YOUR API KEY HERE !!! ---
-const String _apiKey = "AIzaSyBb9tSjzALHgQCbYg8hKU5L4wgUCPLcjvQ";
+const String _apiKey = "paste Your API key Brother!!";
 // --------------------------------------------------
 
 // Model for chat message

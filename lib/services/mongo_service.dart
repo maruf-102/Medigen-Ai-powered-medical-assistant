@@ -6,7 +6,7 @@ class MongoService {
   // --- ⚠️ REPLACE THIS WITH YOUR COPIED STRING ---
   // Replace <db_password> with your actual password for 'maruf1minhaz_db_user'
   static const String _connectionString =
-      "mongodb+srv://maruf1minhaz_db_user:1234@medigen.jgvmk1n.mongodb.net/?appName=medigen";
+      "mongodb+srv://maruf1minhaz_db_user:<password>@medigen.jgvmk1n.mongodb.net/?appName=medigen";
 
   static Db? _db;
   static DbCollection? _donorCollection;
